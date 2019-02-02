@@ -61,20 +61,20 @@ header {
 }
 .container-2  {
   animation-name: mymove;
-  animation-duration: 6s;
-  animation-delay: -3s;
+  animation-duration: 9s;
+  animation-delay: -5s;
   position: relative;
 }
 .container-3  {
   animation-name: mymove;
-  animation-duration: 6s;
-  animation-delay: -3s;
+  animation-duration: 13s;
+  animation-delay: -9s;
   position: relative;
 }
 .container-4  {
   animation-name: mymove;
-  animation-duration: 6s;
-  animation-delay: -3s;
+  animation-duration: 17.5s;
+  animation-delay: -13s;
   position: relative;
 }
 .container  {
@@ -152,8 +152,8 @@ header {
   100%  {left:0px; top:0px;}
 }
 @keyframes mymove {
-	from {bottom: -200px;}
-	to {bottom: 100px;}
+	from {top: 5000px;}
+	to {top: 0px;}
 }
 
 @media only screen and (max-width: 1000px)   {
