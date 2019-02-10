@@ -235,6 +235,9 @@ footer {
 	margin-top: 5%;
 	margin-left: -2%;
 }
+.new {
+	padding-bottom: 0%;
+}
 .schedule h2 {
 	font-size: 100%; 
 } 
