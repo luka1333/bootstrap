@@ -9,10 +9,17 @@
 	width: 100%;
 	margin-left: 330px;
 }
+.container .head {
+	font-family: "ALK Rounded Nusx Med", sans-serif;
 
+}
+.container p {
+	font-family: "Arial GEO", sans-serif;
+}
 body {
 	background-image: url(../img/back.jpeg);
 	font-family: "BPG Irubaqidze", sans-serif;
+
 }
 header .dropdown-menu {
 	background-color: #343a40;
@@ -65,7 +72,7 @@ header {
 	/*background-repeat: no-repeat;*/
     /*background-size: 100% 100%;		*/
 }
-footer {
+.footing{
 	width: 100%;
 	height: 50px;
 	color: white;
@@ -73,7 +80,12 @@ footer {
 }
 footer p {
 	margin-left: 20px;
-	
+}
+footer {
+	width: 100%;
+	height: 50px;
+	color: white;
+	background-color: grey;
 }
 
 .table {
@@ -93,11 +105,11 @@ footer p {
 }*/
 
 .container img {
-	margin-left: -100px;
+	/*margin-left: -100px;*/
 	margin-top: 20px;
-	width: 600px;
+	/*width: 600px;*/
 }
-.container-2  {
+/*.container-2  {
   animation-name: mymove;
   animation-duration: 9s;
   animation-delay: -5s;
@@ -114,24 +126,28 @@ footer p {
   animation-duration: 17.5s;
   animation-delay: -13s;
   position: relative;
-}
+}*/
 .container  {
   animation-name: mymove;
   animation-duration: 6s;
   animation-delay: -3s;
   position: relative;
 }
+.container h2 {
+	color: white;
+	margin-top: 20px;
+}
 
 .container p {
 	color: white;
 	/*background-color: #6c757d;*/
 	/*display: inline-block;*/
-	width: 600px;
-	margin-left: -100px;
+	/*width: 600px;*/
+	/*margin-left: -100px;*/
 }
 .container-2 img {
-	margin-left: 60%;
-	width: 400px;
+	/*margin-left: 60%;*/
+	/*width: 400px;*/
 	margin-top: -821px;	
 }
 .container-2 p {
@@ -144,8 +160,8 @@ footer p {
 	margin-top: -200px;
 }
 .container-3 img {
-	width: 600px;
-	margin-left: 55px;
+	/*width: 600px;*/
+	/*margin-left: 55px;*/
 }
 .container-3 p{
 	color: white;
@@ -157,8 +173,8 @@ footer p {
 	margin-left: 25%;
 }
 .container-4 img {
-	width: 600px;
-	margin-left: 55%;
+	/*width: 600px;*/
+	/*margin-left: 55%;*/
 	margin-top: -400px;
 }
 .container-4 p {
@@ -221,6 +237,10 @@ footer p {
 }
 .schedule h2 {
 	font-size: 100%; 
+} 
+.container p h2 {
+	padding: 0px;
 }
+
 }
 
