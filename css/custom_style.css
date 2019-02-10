@@ -26,7 +26,7 @@ header .dropdown-menu {
 
 }
 .viewport {
-	min-height: calc(100vh - 90px);
+	min-height: calc(100vh - 150px);
 }
 header .dropdown-menu a {
 	color: white;
